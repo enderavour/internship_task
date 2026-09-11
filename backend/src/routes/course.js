@@ -3,7 +3,6 @@ import {
   getCourses,
   createCourse,
   deleteCourse,
-  getCourse
 } from "../controllers/course.js";
 
 const router = express.Router();
