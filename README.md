@@ -6,9 +6,13 @@ In order to download, build and run the project:
 ```cmd
 git clone https://github.com/enderavour/internship_task.git && cd internship_task
 ```
+- Navigate to backend and create .env:
+```cmd
+cd backend && cp .env.sample .env
+```
 - Run the application
 ```
-docker compose up --build
+cd .. && docker compose up --build
 ```
 - Run initial Prisma migration
 ```cmd
