@@ -14,7 +14,7 @@ cd backend && cp .env.sample .env
 ```
 cd .. && docker compose up --build
 ```
-- Run initial Prisma migration
+- Run initial Prisma migration (parallel terminal session, or the same if started Docker with -d flag)
 ```cmd
 docker compose exec backend npx prisma migrate dev --name init
 ```
