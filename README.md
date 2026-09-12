@@ -73,7 +73,7 @@ Frontend:
 ### 7. Not completed
 Optional endpoints:
 - GET    /courses/:id
-- PATCH  /courses/:id
+- PATCH  /courses/:id<br>
 Optional description in lesson
 
 ### 8. AI usage
