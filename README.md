@@ -74,6 +74,7 @@ Frontend:
 Optional endpoints:
 - GET    /courses/:id
 - PATCH  /courses/:id
+Optional description in lesson
 
 ### 8. AI usage
 AI was used to some extent in both frontend and backend, as well as suggestions for project structure and work with unexperienced language (Prisma language, schema.prisma). Additionally AI was used for faster error analysis and debugging of errors during backend setup. 
